@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SentinelXAI | Intelligent Intrusion Detection</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <div class="logo">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <span>SentinelXAI</span>
+
+            </div>
+
+            <nav>
+
+                <ul class="nav-links">
+
+                    <li><a href="/">Home</a></li>
+
+                    <li><a href="/prediction">Threat Analysis</a></li>
+
+                    <li><a href="/analytics">Analytics</a></li>
+
+                    <li><a href="/about">About</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="status">
+
+                <span class="status-dot"></span>
+
+                System Ready
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+
+               <div class="hero-badge">
+
+    Where Intelligent Detection Meets Visual Understanding
+
+</div>
+
+             <h1>
+
+    SentinelXAI
+
+    <br>
+
+    <span>Interactive Explainable AI Dashboard</span>
+
+    <br>
+
+    for Network Intrusion Detection
+
+</h1>
+
+                <p>
+
+                   SentinelXAI is an intelligent Network Intrusion Detection System (NIDS)
+that combines Machine Learning with Explainable Artificial Intelligence (XAI)
+to detect malicious network traffic. Using a Random Forest classifier with
+SHAP and LIME, the platform not only identifies cyber attacks but also
+explains every prediction through transparent visual explanations.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>Random Forest</span>
+
+                    <span>SHAP</span>
+
+                    <span>LIME</span>
+
+                    <span>CSE-CIC-IDS2018</span>
+
+                </div>
+
+                <div class="hero-buttons">
+
+                    <a href="/prediction" class="btn-primary">
+
+                        Analyse Network Traffic
+
+                    </a>
+
+                    <a href="/analytics" class="btn-secondary">
+
+                        View Analytics
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img src="{{ url_for('static', filename='images/setinalXAI.png') }}"
+                    alt="SentinelXAI Dashboard">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= STATS ================= -->
+
+    <section class="stats">
+
+        <div class="container">
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <h2>99.97%</h2>
+
+                    <p>Model Accuracy</p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-layer-group"></i>
+
+                    <h2>30</h2>
+
+                    <p>Selected Features</p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-shield-virus"></i>
+
+                    <h2>15+</h2>
+
+                    <p>Attack Categories</p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+
+                    <h2>100%</h2>
+
+                    <p>Explainable Predictions</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CSS and JavaScript will be linked below -->
+     <section class="features">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Core Features
+        </h2>
+
+        <p class="section-subtitle">
+            SentinelXAI combines intelligent machine learning with Explainable AI
+            to provide accurate, transparent, and trustworthy intrusion detection.
+        </p>
+
+        <div class="features-grid">
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <h3>Attack Detection</h3>
+
+                <p>
+                    Detects malicious network traffic using a trained
+                    Random Forest classifier on the CSE-CIC-IDS2018 dataset.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+
+                <h3>Explainable AI</h3>
+
+                <p>
+                    Uses SHAP and LIME to explain every prediction,
+                    making security decisions transparent and easy to understand.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-chart-column"></i>
+                </div>
+
+                <h3>Visual Analytics</h3>
+
+                <p>
+                    Displays prediction confidence, feature importance,
+                    and attack insights through interactive dashboards.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Threat Analysis | SentinelXAI</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-shield-halved"></i>
+
+            <span>SentinelXAI</span>
+
+        </div>
+
+        <nav>
+
+            <ul class="nav-links">
+
+                <li><a href="/">Home</a></li>
+
+                <li><a href="/prediction">Threat Analysis</a></li>
+
+                <li><a href="/analytics">Analytics</a></li>
+
+                <li><a href="/about">About</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<h2 class="section-title">
+
+Threat Analysis
+
+</h2>
+
+<p class="section-subtitle">
+
+Upload a network traffic CSV file generated from the
+CSE-CIC-IDS2018 dataset. SentinelXAI will analyse the traffic,
+detect malicious activity and explain every prediction using
+Explainable AI.
+
+</p>
+
+<form action="/predict"
+
+      method="POST"
+
+      enctype="multipart/form-data"
+
+      class="upload-form">
+
+<div class="upload-box">
+
+<i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
+
+<h3>
+
+Upload Network Traffic CSV
+
+</h3>
+
+<p>
+
+Choose or drag and drop a CSV file
+
+</p>
+
+<input
+
+type="file"
+
+name="csv_file"
+
+accept=".csv"
+
+required>
+
+</div>
+
+<div class="upload-buttons">
+
+<button
+
+type="submit"
+
+class="btn-primary">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+Analyse Network Traffic
+
+</button>
+
+<a
+
+href="{{ url_for('static', filename='sample.csv') }}"
+
+class="btn-secondary"
+
+download>
+
+<i class="fa-solid fa-download"></i>
+
+Download Sample CSV
+
+</a>
+
+</div>
+
+</form>
+{% if error %}
+
+<div style="background:#ffebee;
+            color:#c62828;
+            padding:15px;
+            margin-top:20px;
+            border-radius:8px;
+            border:1px solid #e57373;">
+
+    <strong>Error:</strong> {{ error }}
+
+</div>
+
+{% endif %}
+{% if results %}
+
+<div class="result-card">
+
+    <h2>Prediction Results</h2>
+
+    <p><strong>Uploaded File:</strong> {{ filename }}</p>
+
+    <p><strong>Total Records:</strong> {{ total_records }}</p>
+
+    <table class="prediction-table">
+
+        <thead>
+
+            <tr>
+
+                <th>Record</th>
+
+                <th>Prediction</th>
+
+                <th>Confidence</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+        {% for row in results %}
+
+            <tr>
+
+                <td>{{ row.record }}</td>
+
+                <td>{{ row.prediction }}</td>
+
+                <td>{{ row.confidence }}%</td>
+
+            </tr>
+
+        {% endfor %}
+
+        </tbody>
+
+    </table>
+
+</div>
+
+{% endif %}
+{% if shap_image %}
+
+<div class="card mt-4">
+
+    <div class="card-header">
+        <h4>SHAP Feature Importance</h4>
+    </div>
+
+    <div class="card-body">
+
+       <img src="{{ url_for('static', filename=shap_image) }}"
+       class="shap-image"
+     alt="SHAP Summary Plot">
+
+    </div>
+
+</div>
+
+{% endif %}
+{% if lime_file %}
+
+<div class="card mt-4">
+
+    <div class="card-header">
+        <h4>LIME Explanation</h4>
+    </div>
+
+    <div class="card-body">
+
+        <iframe
+            src="{{ url_for('static', filename=lime_file) }}"
+            width="100%"
+            height="650"
+            style="border:none;">
+        </iframe>
+
+    </div>
+
+</div>
+
+{% endif %}
+</div>
+
+</section>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>
