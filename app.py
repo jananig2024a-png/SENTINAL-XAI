@@ -360,13 +360,6 @@ def predict():
 # Analytics
 # ===========================
 
-
-
-
-# ===========================
-# About
-# ===========================
-
 @app.route("/analytics")
 def analytics():
 
@@ -374,6 +367,14 @@ def analytics():
         "analytics.html",
         analytics=analytics_data
     )
+
+# ===========================
+# About Page
+# ===========================
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
 
 # ===========================
 # Run App

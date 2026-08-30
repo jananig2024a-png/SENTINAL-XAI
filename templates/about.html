@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About | SentinelXAI</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    {% include "_navbar.html" %}
+
+    <section class="hero" style="padding-top:150px;">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                About SentinelXAI
+            </h2>
+
+            <p class="section-subtitle">
+                SentinelXAI is an intelligent Network Intrusion Detection System
+                that combines a Random Forest classifier with Explainable AI
+                to detect and explain malicious network traffic.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="features" style="padding-top:30px;">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                How It Works
+            </h2>
+
+            <p class="section-subtitle">
+                Each prediction follows a transparent pipeline: the uploaded
+                network-traffic sample is mapped onto the model's selected
+                features, classified by the Random Forest, then explained
+                with SHAP and LIME.
+            </p>
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-file-csv"></i>
+                    </div>
+
+                    <h3>1. Upload Traffic</h3>
+
+                    <p>
+                        Provide a CSV of network-flow records matching the
+                        CSE-CIC-IDS2018 dataset schema.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-tree"></i>
+                    </div>
+
+                    <h3>2. Random Forest Detection</h3>
+
+                    <p>
+                        A trained Random Forest classifier scores each record
+                        across 30 selected features and predicts one of 9
+                        traffic classes.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+
+                    <h3>3. Explainable AI</h3>
+
+                    <p>
+                        SHAP reveals global feature importance and LIME
+                        explains individual predictions, making every
+                        decision transparent.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="why">
+
+        <div class="container">
+
+            <div class="why-grid">
+
+                <div class="why-content">
+
+                    <h2>The Model</h2>
+
+                    <p>
+                        SentinelXAI uses a Random Forest classifier trained on
+                        the CSE-CIC-IDS2018 dataset. The model operates on
+                        <strong>30 selected features</strong> and distinguishes
+                        <strong>9 traffic classes</strong>: one benign class and
+                        eight attack types.
+                    </p>
+
+                    <ul class="why-list">
+                        <li><i class="fa-solid fa-check"></i> Algorithm: Random Forest</li>
+                        <li><i class="fa-solid fa-check"></i> Features: 30 selected</li>
+                        <li><i class="fa-solid fa-check"></i> Classes: 9 (1 benign + 8 attacks)</li>
+                        <li><i class="fa-solid fa-check"></i> Dataset: CSE-CIC-IDS2018</li>
+                        <li><i class="fa-solid fa-check"></i> Explainability: SHAP + LIME</li>
+                    </ul>
+
+                </div>
+
+                <div class="why-image">
+
+                    <div class="feature-card" style="padding:30px;">
+
+                        <h3 style="margin-bottom:20px;">
+                            <i class="fa-solid fa-shield-virus" style="color:#0EA5A4;margin-right:8px;"></i>
+                            Detected Attack Types
+                        </h3>
+
+                        <ul class="why-list" style="margin-top:0;">
+
+                            <li><i class="fa-solid fa-circle" style="font-size:8px;color:#10B981;"></i> Benign</li>
+                            <li><i class="fa-solid fa-circle" style="font-size:8px;color:#EF4444;"></i> Bot</li>
+                            <li><i class="fa-solid fa-circle" style="font-size:8px;color:#EF4444;"></i> Brute Force - Web</li>
+                            <li><i class="fa-solid fa-circle" style="font-size:8px;color:#EF4444;"></i> Brute Force - XSS</li>
+                            <li><i class="fa-solid fa-circle" style="font-size:8px;color:#EF4444;"></i> DDOS attack-LOIC-UDP</li>
+                            <li><i class="fa-solid fa-circle" style="font-size:8px;color:#EF4444;"></i> DoS attacks-GoldenEye</li>
+                            <li><i class="fa-solid fa-circle" style="font-size:8px;color:#EF4444;"></i> DoS attacks-SlowHTTPTest</li>
+                            <li><i class="fa-solid fa-circle" style="font-size:8px;color:#EF4444;"></i> DoS attacks-Slowloris</li>
+                            <li><i class="fa-solid fa-circle" style="font-size:8px;color:#EF4444;"></i> SQL Injection</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="features" style="padding-top:30px;">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Explainability Methods
+            </h2>
+
+            <p class="section-subtitle">
+                Two complementary XAI techniques make the model's decisions
+                interpretable without altering the predictions themselves.
+            </p>
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+
+                    <h3>SHAP</h3>
+
+                    <p>
+                        SHapley Additive exPlanations measure each feature's
+                        contribution to a prediction. The summary plot on the
+                        Threat Analysis page shows the most influential features
+                        across the analysed sample.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+
+                    <h3>LIME</h3>
+
+                    <p>
+                        Local Interpretable Model-agnostic Explanations fit a
+                        simple local model around a single prediction to show
+                        which features pushed it toward a given class.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+
+                    <h3>Analytics</h3>
+
+                    <p>
+                        The Analytics page aggregates the latest run into
+                        attack distribution, frequency, and prediction
+                        confidence charts, all derived from real model output.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    {% include "_footer.html" %}
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>

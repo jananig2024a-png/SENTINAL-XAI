@@ -25,47 +25,7 @@
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
-
-    <header class="navbar">
-
-        <div class="container nav-container">
-
-            <div class="logo">
-
-                <i class="fa-solid fa-shield-halved"></i>
-
-                <span>SentinelXAI</span>
-
-            </div>
-
-            <nav>
-
-                <ul class="nav-links">
-
-                    <li><a href="/">Home</a></li>
-
-                    <li><a href="/prediction">Threat Analysis</a></li>
-
-                    <li><a href="/analytics">Analytics</a></li>
-
-                    <li><a href="/about">About</a></li>
-
-                </ul>
-
-            </nav>
-
-            <div class="status">
-
-                <span class="status-dot"></span>
-
-                System Ready
-
-            </div>
-
-        </div>
-
-    </header>
+    {% include "_navbar.html" %}
 
     <!-- ================= HERO ================= -->
 
@@ -178,9 +138,9 @@ explains every prediction through transparent visual explanations.
 
                     <i class="fa-solid fa-shield-virus"></i>
 
-                    <h2>15+</h2>
+                    <h2>8</h2>
 
-                    <p>Attack Categories</p>
+                    <p>Attack Types Detected</p>
 
                 </div>
 
@@ -267,6 +227,8 @@ explains every prediction through transparent visual explanations.
 
 </section>
 
+
+    {% include "_footer.html" %}
 
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 
