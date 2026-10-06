@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: "Sentinel XAI: Evidence-Grounded and Agreement-Aware Explainable Network Intrusion Detection with Controlled LLM-Assisted Reporting"
+type: software
+version: "1.0.0"
+date-released: "2026-10-05"
+license: "MIT"
+abstract: >
+  Sentinel XAI is an explainable network intrusion detection system based
+  on CICIDS2018 with a strict separation between deterministic security
+  evidence and natural-language presentation. A Random Forest classifier
+  operates on 30 selected flow features after training-only feature
+  selection. SHAP and LIME explain the same local flow, and their
+  normalized top-10 feature sets are compared using Jaccard similarity.
+  A bounded local SmolLM2 layer is used only for readability, while
+  prediction, confidence, SHAP evidence, Jaccard value, and review wording
+  remain deterministic. Generated bridge phrases are checked against an
+  evidence contract and can be replaced by deterministic fallback.
+keywords:
+  - "Network intrusion detection"
+  - "Explainable AI"
+  - "SHAP"
+  - "LIME"
+  - "Random Forest"
+  - "Jaccard similarity"
+  - "large language models"
+  - "SmolLM2"
+  - "CICIDS2018"
+  - "evidence-grounded explanation"
+authors:
+  - family-names: "G"
+    given-names: "Janani"
+    affiliation: "Vellore Institute of Technology"
+  - family-names: "Deepa"
+    given-names: "D"
+    affiliation: "Vellore Institute of Technology"
+  - family-names: "I"
+    given-names: "Aqsha Fathima"
+    affiliation: "Vellore Institute of Technology"
+  - family-names: "M"
+    given-names: "Gayathri"
+    affiliation: "Vellore Institute of Technology"
+  - family-names: "N"
+    given-names: "Rakshitha"
+    affiliation: "Vellore Institute of Technology"
+  - family-names: "Musquan"
+    given-names: "Syed Fazila"
+    affiliation: "Vellore Institute of Technology"
+repository-code: "<https://github.com/JANANI2025/SENTINEL-XAI>"

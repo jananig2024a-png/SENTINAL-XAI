@@ -1,0 +1,6392 @@
+[
+  {
+    "Sample_Index": 21023,
+    "Actual": "Benign",
+    "Predicted": "Benign",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.030183580626380352,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.021367710471836075,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 8.0,
+        "shap_value": 0.02099905478421157,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 33.0,
+        "shap_value": 0.01689051539182565,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 97.0,
+        "shap_value": 0.015767409045720753,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 0.0,
+        "shap_value": 0.010919506851322308,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 53.0,
+        "shap_value": 0.010038864170672563,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.009170466591533978,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 33.0,
+        "shap_value": 0.009000946616427304,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 97.0,
+        "shap_value": 0.007315651981377658,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 188530,
+    "Actual": "Benign",
+    "Predicted": "Benign",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.02736809822637716,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 8.0,
+        "shap_value": 0.021834742005442366,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.019721655063796598,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 32.0,
+        "shap_value": 0.016447989741854553,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 48.0,
+        "shap_value": 0.013966174280032212,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 0.0,
+        "shap_value": 0.011871454191729976,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 53.0,
+        "shap_value": 0.010179267644952967,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 32.0,
+        "shap_value": 0.008094992344087046,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 48.0,
+        "shap_value": 0.00805195341269941,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.007985264076476243,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 21821,
+    "Actual": "Benign",
+    "Predicted": "Benign",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": -0.061292387011339586,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 55800.0,
+        "shap_value": 0.032886406234112577,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 116.0,
+        "shap_value": 0.021144298566108936,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.01393032787903432,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.013439586665711515,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 935.0,
+        "shap_value": 0.011872175476057756,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 935.0,
+        "shap_value": 0.01186584291065863,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 116.0,
+        "shap_value": 0.011169636414030163,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.724001295,
+        "shap_value": 0.010992849345704318,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 309.0,
+        "shap_value": 0.0105819220134502,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 159435,
+    "Actual": "Benign",
+    "Predicted": "Benign",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Dst Port",
+        "value": 445.0,
+        "shap_value": 0.02746792553824953,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.014980264570647646,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 20.0,
+        "shap_value": 0.012475783775322888,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 74.6,
+        "shap_value": 0.01208296082793395,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 43.0,
+        "shap_value": 0.011707867675630505,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.011003900089604224,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 8192.0,
+        "shap_value": 0.010680547487822933,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 4.393190554599999,
+        "shap_value": 0.010183555051066738,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 598.0,
+        "shap_value": 0.009124973463425116,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 70.28371077279999,
+        "shap_value": 0.009081343403731191,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 106820,
+    "Actual": "Benign",
+    "Predicted": "Benign",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": -0.06451008426635889,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.04003723730110264,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.028846015950159738,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 42664.0,
+        "shap_value": 0.02502175329385389,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 237.0,
+        "shap_value": 0.022127489175355442,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.0195389860494078,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 0.0,
+        "shap_value": 0.015506993741948886,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 0.0,
+        "shap_value": 0.015476030021371092,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 0.0,
+        "shap_value": 0.01023964740307043,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.009544868497519655,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 105423,
+    "Actual": "Benign",
+    "Predicted": "Benign",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.022621901305857863,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 8.0,
+        "shap_value": 0.0208378688743499,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.017083948155454234,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 39.0,
+        "shap_value": 0.014493432533862805,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 95.0,
+        "shap_value": 0.012263429153070292,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 9.433161335,
+        "shap_value": 0.010442977528566169,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 53.0,
+        "shap_value": 0.010113491713066695,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 0.0,
+        "shap_value": 0.008760824911618982,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.008575636514992192,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 78.0,
+        "shap_value": -0.008307095854195506,
+        "direction": "away from prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 169863,
+    "Actual": "Benign",
+    "Predicted": "Benign",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": -0.05894423873745263,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 34220.0,
+        "shap_value": 0.03010804668808527,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 106.3333333,
+        "shap_value": 0.020355084807808534,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 237.0,
+        "shap_value": 0.018600552404820517,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.013829010708582858,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.903075333,
+        "shap_value": 0.01284883537860128,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 935.0,
+        "shap_value": 0.011539518300738915,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 106.3333333,
+        "shap_value": 0.011534912878156892,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 935.0,
+        "shap_value": 0.011419113461986225,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 319.0,
+        "shap_value": 0.010882427653154794,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 23023,
+    "Actual": "Benign",
+    "Predicted": "Benign",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.1764705882352941,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": -0.03683011096223383,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 133.0,
+        "shap_value": 0.030165785337670042,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": -0.02689343445578968,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 935.0,
+        "shap_value": 0.02091085562572839,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 133.0,
+        "shap_value": 0.020639107053091063,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 935.0,
+        "shap_value": 0.01898783059520615,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 266.0,
+        "shap_value": 0.012947107260209142,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 124.0,
+        "shap_value": 0.012844726840669885,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 188.0904038,
+        "shap_value": 0.01270213657839758,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 266.0,
+        "shap_value": 0.012324014396232439,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 49090,
+    "Actual": "Benign",
+    "Predicted": "Benign",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.5384615384615384,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Dst Port",
+        "value": 3389.0,
+        "shap_value": 0.03733126906854745,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": -0.02182601843963275,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 1581.0,
+        "shap_value": 0.01491347630120104,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": -0.014281690206502213,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 1148.0,
+        "shap_value": 0.013705829906487936,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 2423939.0,
+        "shap_value": 0.013265074707734933,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 2.887861452,
+        "shap_value": 0.012973731323492107,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 1148.0,
+        "shap_value": 0.01257899718438113,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 225.8571429,
+        "shap_value": 0.012283546961102216,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 20.0,
+        "shap_value": 0.010257535681129405,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 209148,
+    "Actual": "Benign",
+    "Predicted": "Benign",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Dst Port",
+        "value": 443.0,
+        "shap_value": 0.026412931463033935,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 20.0,
+        "shap_value": 0.018267786136705055,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 8192.0,
+        "shap_value": 0.016031331304896264,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 4721.0,
+        "shap_value": 0.010771710297159032,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.01038083241149936,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 262.2777777778,
+        "shap_value": 0.010289825120109727,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 118667200.0,
+        "shap_value": 0.00937183372920587,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 118667200.0,
+        "shap_value": 0.009034427440420358,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.007773674651962933,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 59.6111111111,
+        "shap_value": 0.006834603594236475,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 20538,
+    "Actual": "Bot",
+    "Predicted": "Bot",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.1764705882352941,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.1478648495602315,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.09939212749140264,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 32.25,
+        "shap_value": 0.07753922423715696,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 32.25,
+        "shap_value": 0.06368711712339843,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 8080.0,
+        "shap_value": 0.043323632589151416,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 129.0,
+        "shap_value": 0.041047593911961326,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 108.6666667,
+        "shap_value": 0.03851803975252199,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 112.0,
+        "shap_value": 0.03506873202805373,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 188.2161878,
+        "shap_value": 0.02620016983940181,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 72.0,
+        "shap_value": 0.021831685027442604,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 188230,
+    "Actual": "Bot",
+    "Predicted": "Bot",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.1764705882352941,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.14749486505442636,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.09910099397544064,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 32.25,
+        "shap_value": 0.07783755536174279,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 32.25,
+        "shap_value": 0.06378352299292313,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 8080.0,
+        "shap_value": 0.043371130823775146,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 129.0,
+        "shap_value": 0.04142493694376202,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 108.6666667,
+        "shap_value": 0.03885100972575459,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 112.0,
+        "shap_value": 0.035246555417114994,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 188.2161878,
+        "shap_value": 0.02628659209625728,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 72.0,
+        "shap_value": 0.021886234799139915,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 21393,
+    "Actual": "Bot",
+    "Predicted": "Bot",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.1475019939037074,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.09910963218512206,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 32.25,
+        "shap_value": 0.07842840249614857,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 32.25,
+        "shap_value": 0.06371825744118957,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 8080.0,
+        "shap_value": 0.04336804858040053,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 129.0,
+        "shap_value": 0.04142763531569882,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 108.6666667,
+        "shap_value": 0.03884551838638524,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 112.0,
+        "shap_value": 0.035247258023898734,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 188.2161878,
+        "shap_value": 0.026167449325598963,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 72.0,
+        "shap_value": 0.02186733141852318,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 159532,
+    "Actual": "Bot",
+    "Predicted": "Bot",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.14801977232249222,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.09981116276216265,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 32.25,
+        "shap_value": 0.07782844543553129,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 32.25,
+        "shap_value": 0.06300861617251761,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 8080.0,
+        "shap_value": 0.04359046032117201,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 129.0,
+        "shap_value": 0.041156340010599896,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 108.6666667,
+        "shap_value": 0.037956244634442374,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 112.0,
+        "shap_value": 0.03482532041696918,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 188.2161878,
+        "shap_value": 0.025640692673666525,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 72.0,
+        "shap_value": 0.021732347562611578,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 106809,
+    "Actual": "Bot",
+    "Predicted": "Bot",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.1764705882352941,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.14789536547289922,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.09959147550288382,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 32.25,
+        "shap_value": 0.07783254020294528,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 32.25,
+        "shap_value": 0.06298591363300547,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 8080.0,
+        "shap_value": 0.043307322933764325,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 129.0,
+        "shap_value": 0.04120739351845796,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 108.6666667,
+        "shap_value": 0.03851731311004038,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 112.0,
+        "shap_value": 0.03482494452417462,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 188.2161878,
+        "shap_value": 0.026200166411167035,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 72.0,
+        "shap_value": 0.02175261688460534,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 105242,
+    "Actual": "Bot",
+    "Predicted": "Bot",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.14795921144675567,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.09983150499385575,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 32.25,
+        "shap_value": 0.0772623823273806,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 32.25,
+        "shap_value": 0.06306165747972343,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 8080.0,
+        "shap_value": 0.04343656896960314,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 129.0,
+        "shap_value": 0.04114367027188563,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 108.6666667,
+        "shap_value": 0.038509072012046924,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 112.0,
+        "shap_value": 0.034923120842915885,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 188.2161878,
+        "shap_value": 0.02548508923232174,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Mean",
+        "value": 56.875,
+        "shap_value": 0.021664652718820163,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 169935,
+    "Actual": "Bot",
+    "Predicted": "Bot",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.14789000058368143,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.0993980361173702,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 32.25,
+        "shap_value": 0.07813082359309459,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 32.25,
+        "shap_value": 0.06360968164008504,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 8080.0,
+        "shap_value": 0.04330662364426909,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 129.0,
+        "shap_value": 0.041037637466034754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 108.6666667,
+        "shap_value": 0.03851902923723487,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 112.0,
+        "shap_value": 0.035068415417846166,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 188.2161878,
+        "shap_value": 0.026079186480776628,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 72.0,
+        "shap_value": 0.021783557239078676,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 22614,
+    "Actual": "Bot",
+    "Predicted": "Bot",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.1474988246017466,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.09910351921003939,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 32.25,
+        "shap_value": 0.07783573112426888,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 32.25,
+        "shap_value": 0.06378695218803972,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 8080.0,
+        "shap_value": 0.04337153577855859,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 129.0,
+        "shap_value": 0.04142770150731661,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 108.6666667,
+        "shap_value": 0.03885396463987982,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 112.0,
+        "shap_value": 0.03524720536311377,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 188.2161878,
+        "shap_value": 0.02628961311347716,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 72.0,
+        "shap_value": 0.02189799413474443,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 48827,
+    "Actual": "Bot",
+    "Predicted": "Bot",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.1764705882352941,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.14795675575189085,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.0995572829737549,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 32.25,
+        "shap_value": 0.07834308255556766,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 32.25,
+        "shap_value": 0.0646592830230204,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 8080.0,
+        "shap_value": 0.04345241253230207,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 129.0,
+        "shap_value": 0.040990088705187146,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 108.6666667,
+        "shap_value": 0.03851730487955422,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 112.0,
+        "shap_value": 0.03492312334557275,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 188.2161878,
+        "shap_value": 0.025591894370404232,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Mean",
+        "value": 56.875,
+        "shap_value": 0.021664757765122656,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 208985,
+    "Actual": "Bot",
+    "Predicted": "Bot",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.1478923266874658,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.09940137428542235,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 32.25,
+        "shap_value": 0.07712632658576694,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 32.25,
+        "shap_value": 0.06366639987880301,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 8080.0,
+        "shap_value": 0.043310181417479325,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 129.0,
+        "shap_value": 0.041054384767164956,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 108.6666667,
+        "shap_value": 0.038508097588768955,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 112.0,
+        "shap_value": 0.03516481563162127,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 188.2161878,
+        "shap_value": 0.026318756192386203,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Mean",
+        "value": 56.875,
+        "shap_value": 0.021684769890919584,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 237044,
+    "Actual": "Brute Force -Web",
+    "Predicted": "Brute Force -Web",
+    "Correct": true,
+    "Confidence": 0.97,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.07404421397883507,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 288.899982693,
+        "shap_value": 0.0694968921860532,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 112.0,
+        "shap_value": 0.062339506010752804,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.05815887342062848,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.04752504479372862,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 646.0,
+        "shap_value": 0.04609875912900199,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 646.0,
+        "shap_value": 0.044625638937956395,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Max",
+        "value": 646.0,
+        "shap_value": 0.044488397668729814,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 201.0,
+        "shap_value": 0.04068139571657044,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.5989973982,
+        "shap_value": 0.03567823594969449,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 158860,
+    "Actual": "Brute Force -Web",
+    "Predicted": "Brute Force -Web",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 54995.0,
+        "shap_value": 0.1203684993036991,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 54995.0,
+        "shap_value": 0.09225576472422035,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 359.4444444444,
+        "shap_value": 0.07388399629897287,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.06853202386570122,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 3072.0,
+        "shap_value": 0.0516510820896067,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04993765183706722,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 359.4444444444,
+        "shap_value": 0.04601209958264524,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 697.0288461538,
+        "shap_value": 0.04593188435553033,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.045496519577434405,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 271.4171844443,
+        "shap_value": 0.041038631548091,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 21175,
+    "Actual": "Brute Force -Web",
+    "Predicted": "Brute Force -Web",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 92.0,
+        "shap_value": 0.06573460245042875,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.06512675068102294,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 323.0,
+        "shap_value": 0.058854914417074626,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 646.0,
+        "shap_value": 0.05204360689119121,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.04999819211824779,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Max",
+        "value": 646.0,
+        "shap_value": 0.047637847094220094,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.0461880567555044,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 646.0,
+        "shap_value": 0.04602254781709431,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 161.5,
+        "shap_value": 0.03944328217747364,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 201.0,
+        "shap_value": 0.03725484847338604,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 139699,
+    "Actual": "Brute Force -Web",
+    "Predicted": "Benign",
+    "Correct": false,
+    "Confidence": 0.99,
+    "Jaccard": 0.5384615384615384,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd IAT Max",
+        "value": 41990695.0,
+        "shap_value": 0.052610907522917326,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 500.0,
+        "shap_value": 0.033386957425294114,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 8.0,
+        "shap_value": 0.03241829243493717,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.02097658028135856,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 500.0,
+        "shap_value": -0.018765792090269916,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 500.0,
+        "shap_value": -0.014939415316580936,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.014451192349470598,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": -0.011877517546582604,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 89480105.0,
+        "shap_value": 0.01027326152188152,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": -0.009153390350557301,
+        "direction": "away from prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 116233,
+    "Actual": "Brute Force -Web",
+    "Predicted": "Benign",
+    "Correct": false,
+    "Confidence": 0.99,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd IAT Max",
+        "value": 41990587.0,
+        "shap_value": 0.04655115700859913,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 500.0,
+        "shap_value": 0.03335002174353653,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 8.0,
+        "shap_value": 0.03225248393122569,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.021300890096615895,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 500.0,
+        "shap_value": -0.020389954909914573,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 500.0,
+        "shap_value": -0.015004108621838793,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.01423466784012049,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 89479974.0,
+        "shap_value": 0.012773928424065608,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": -0.012670110622240938,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": -0.009274562536883952,
+        "direction": "away from prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 115267,
+    "Actual": "Brute Force -Web",
+    "Predicted": "Brute Force -Web",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 54995.0,
+        "shap_value": 0.12174803709401484,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 54995.0,
+        "shap_value": 0.09388934250965786,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 359.4444444444,
+        "shap_value": 0.07375329431548643,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.06846947248920668,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 3072.0,
+        "shap_value": 0.05173973207386305,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.0499376924143964,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 359.4444444444,
+        "shap_value": 0.04601209958264524,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 696.9038461538,
+        "shap_value": 0.04555972360435379,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.045496519577434405,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 271.4171844443,
+        "shap_value": 0.0407866836033806,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 155014,
+    "Actual": "Brute Force -Web",
+    "Predicted": "Benign",
+    "Correct": false,
+    "Confidence": 0.915,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Dst Port",
+        "value": 500.0,
+        "shap_value": 0.03154824900599184,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 8.0,
+        "shap_value": 0.030535740824511316,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 500.0,
+        "shap_value": -0.02374470196343927,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.020167985287311802,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 500.0,
+        "shap_value": -0.018308371908656886,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": -0.015148719760334228,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.014161711274898202,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 89480069.0,
+        "shap_value": 0.011115073130939214,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": -0.010072173798380742,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 0.0,
+        "shap_value": 0.008632509470946717,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 22727,
+    "Actual": "Brute Force -Web",
+    "Predicted": "Brute Force -Web",
+    "Correct": true,
+    "Confidence": 0.915,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 2047.0,
+        "shap_value": 0.2640650766395076,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.15209033264865537,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 95.0,
+        "shap_value": 0.05781847142953657,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 95.0,
+        "shap_value": 0.05619148573469039,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.0533127721178364,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 95.0,
+        "shap_value": 0.051437363594105,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.032044406899897904,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.026075534270298708,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.02064497290437441,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Var",
+        "value": 0.0,
+        "shap_value": 0.01744032658340385,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 54400,
+    "Actual": "Brute Force -Web",
+    "Predicted": "Benign",
+    "Correct": false,
+    "Confidence": 0.5620833333333334,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd IAT Max",
+        "value": 41990280.0,
+        "shap_value": -0.058879126303945276,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 500.0,
+        "shap_value": -0.04548893096950599,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 500.0,
+        "shap_value": -0.03946386845212947,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 89479600.0,
+        "shap_value": -0.038973666620946514,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 89479600.0,
+        "shap_value": -0.03152414508713644,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": -0.025758790709809434,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 8.0,
+        "shap_value": 0.024187096195001048,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 500.0,
+        "shap_value": 0.022301595096740373,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Max",
+        "value": 500.0,
+        "shap_value": -0.01859229150448959,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": -0.018510396249788882,
+        "direction": "away from prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 193890,
+    "Actual": "Brute Force -Web",
+    "Predicted": "Brute Force -Web",
+    "Correct": true,
+    "Confidence": 0.73,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 89479696.0,
+        "shap_value": 0.09674893607456744,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 89479696.0,
+        "shap_value": 0.0947911777303526,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 41990230.0,
+        "shap_value": 0.07287496175719906,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 500.0,
+        "shap_value": 0.054037958325401286,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 500.0,
+        "shap_value": 0.04367285737874516,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 3000.0,
+        "shap_value": 0.03245149201811676,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.025066475601756955,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Mean",
+        "value": 500.0,
+        "shap_value": 0.024754827959097767,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.024447613393710734,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Size Avg",
+        "value": 583.3333333333001,
+        "shap_value": 0.024125190552504745,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 225141,
+    "Actual": "Brute Force -XSS",
+    "Predicted": "Brute Force -XSS",
+    "Correct": true,
+    "Confidence": 0.895,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 2053.0,
+        "shap_value": 0.2264445972891365,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.1549625019284836,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 549.0,
+        "shap_value": 0.08491101843874313,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 549.0,
+        "shap_value": 0.07056736141229995,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 549.0,
+        "shap_value": 0.06688950711893507,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.0435667893132249,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.02253191390841511,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.017778253293586194,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 20.0,
+        "shap_value": 0.016640493443035895,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.01656357084786809,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 133824,
+    "Actual": "Brute Force -XSS",
+    "Predicted": "Brute Force -XSS",
+    "Correct": true,
+    "Confidence": 0.97,
+    "Jaccard": 0.5384615384615384,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 2053.0,
+        "shap_value": 0.23163034285971607,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.16011425078983674,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 60.0,
+        "shap_value": 0.08169678383660323,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 149.0,
+        "shap_value": 0.06152064719822403,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.058573278101786024,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 155.0,
+        "shap_value": 0.053502561703173884,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 155.0,
+        "shap_value": 0.05345344077837791,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.02750946517857678,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.02196598746885448,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 20.0,
+        "shap_value": 0.018542780152175344,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 11592,
+    "Actual": "Brute Force -XSS",
+    "Predicted": "Brute Force -XSS",
+    "Correct": true,
+    "Confidence": 0.99,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 1826.7307692308,
+        "shap_value": 0.12030434969772646,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 56330.0,
+        "shap_value": 0.0742761193708145,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Max",
+        "value": 1934.0,
+        "shap_value": 0.06678643219963536,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Var",
+        "value": 630605.269385338,
+        "shap_value": 0.06488739730606709,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 1934.0,
+        "shap_value": 0.06466981871421351,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 1826.7307692308,
+        "shap_value": 0.06313672759064093,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.06177753666464286,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 56330.0,
+        "shap_value": 0.05519052610251551,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 277.4876847291,
+        "shap_value": 0.046481883905789445,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.041180866908191095,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 117802,
+    "Actual": "Brute Force -XSS",
+    "Predicted": "Brute Force -XSS",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 1825.9423076923,
+        "shap_value": 0.11999545678628433,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 56083.0,
+        "shap_value": 0.07331665138969658,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Max",
+        "value": 1937.0,
+        "shap_value": 0.0676865152278993,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Var",
+        "value": 630442.3420089689,
+        "shap_value": 0.06498129869752481,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 1937.0,
+        "shap_value": 0.06439942977934965,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 1825.9423076923,
+        "shap_value": 0.06290744714871001,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.06188645424951525,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 56083.0,
+        "shap_value": 0.05705114959568354,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 276.2709359606,
+        "shap_value": 0.04645347277310603,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.04236504433343955,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 55798,
+    "Actual": "Brute Force -XSS",
+    "Predicted": "Brute Force -XSS",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 1826.0480769231,
+        "shap_value": 0.12000500072715946,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 56083.0,
+        "shap_value": 0.07331665138969658,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Max",
+        "value": 1936.0,
+        "shap_value": 0.06772390664504703,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Var",
+        "value": 630532.39587123,
+        "shap_value": 0.06498130295734986,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 1936.0,
+        "shap_value": 0.06439942977934965,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 1826.0480769231,
+        "shap_value": 0.06315839794934835,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.06202693587186527,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 56083.0,
+        "shap_value": 0.056077359699255286,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 276.2709359606,
+        "shap_value": 0.04648034383464379,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.04236504433343955,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 182723,
+    "Actual": "Brute Force -XSS",
+    "Predicted": "Brute Force -XSS",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 1826.9134615385,
+        "shap_value": 0.11999545678628433,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 56330.0,
+        "shap_value": 0.07331665138969658,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Max",
+        "value": 1935.0,
+        "shap_value": 0.0676865152278993,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Var",
+        "value": 630745.51997758,
+        "shap_value": 0.06498129869752481,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 1935.0,
+        "shap_value": 0.06439942977934965,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 1826.9134615385,
+        "shap_value": 0.06290744714871001,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.0618694066652295,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 56330.0,
+        "shap_value": 0.05705114959568354,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 277.4876847291,
+        "shap_value": 0.04648034383464379,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.04236504433343955,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 147649,
+    "Actual": "Brute Force -XSS",
+    "Predicted": "Brute Force -XSS",
+    "Correct": true,
+    "Confidence": 0.635,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd IAT Max",
+        "value": 41990101.0,
+        "shap_value": 0.1070918442717499,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 89479010.0,
+        "shap_value": 0.0989680557697431,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 89479010.0,
+        "shap_value": 0.09777948703872433,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 500.0,
+        "shap_value": 0.034478674144766755,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Mean",
+        "value": 500.0,
+        "shap_value": 0.03279349680629329,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.023133732003395132,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.02050674288890095,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Mean",
+        "value": 500.0,
+        "shap_value": 0.018088714713800212,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Max",
+        "value": 500.0,
+        "shap_value": 0.016783796640753496,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Size Avg",
+        "value": 583.3333333333001,
+        "shap_value": 0.016506312559080954,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 11733,
+    "Actual": "Brute Force -XSS",
+    "Predicted": "Brute Force -XSS",
+    "Correct": true,
+    "Confidence": 0.91,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 2053.0,
+        "shap_value": 0.21650187719005443,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.1455663528773628,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 60.0,
+        "shap_value": 0.10766471303398652,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.05635833904556642,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 155.0,
+        "shap_value": 0.054432924114292985,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 185.0,
+        "shap_value": 0.041604561473789506,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 185.0,
+        "shap_value": 0.03616477719718299,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.02636340823922498,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.020287617972563943,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 20.0,
+        "shap_value": 0.017686655378238634,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 40468,
+    "Actual": "Brute Force -XSS",
+    "Predicted": "Brute Force -XSS",
+    "Correct": true,
+    "Confidence": 0.695,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 2053.0,
+        "shap_value": 0.19078008737434596,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.1276541347503683,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 461.0,
+        "shap_value": 0.05661448446128484,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 461.0,
+        "shap_value": 0.04318658722965224,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 461.0,
+        "shap_value": 0.0403698990480757,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.036644625857422924,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.018967717441434766,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 20.0,
+        "shap_value": 0.014576133647957353,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.01378736808255267,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.013567739696020074,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 165040,
+    "Actual": "Brute Force -XSS",
+    "Predicted": "Brute Force -XSS",
+    "Correct": true,
+    "Confidence": 0.775,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 2053.0,
+        "shap_value": 0.2108015297745673,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.12262118994648741,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 60.0,
+        "shap_value": 0.08860536510744098,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.04694245028386152,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 92.0,
+        "shap_value": 0.03060466031540004,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 97.0,
+        "shap_value": 0.029817864848833683,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 97.0,
+        "shap_value": 0.025648528687479095,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.02402450270944867,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.018497974567838284,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 20.0,
+        "shap_value": 0.015625365027454305,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 16897,
+    "Actual": "DDOS attack-LOIC-UDP",
+    "Predicted": "DDOS attack-LOIC-UDP",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 1030856.0,
+        "shap_value": 0.18058544745216676,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 4123424.0,
+        "shap_value": 0.12374217244275579,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 4123424.0,
+        "shap_value": 0.10700228439128075,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04492638609072282,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04290873084908149,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.041849199613972654,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 120000000.0,
+        "shap_value": 0.040228588705651644,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 34417.0,
+        "shap_value": 0.03202302750764754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.031216557997412926,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.030595387306313487,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 180241,
+    "Actual": "DDOS attack-LOIC-UDP",
+    "Predicted": "DDOS attack-LOIC-UDP",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 867720.0,
+        "shap_value": 0.180141317390349,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 3470880.0,
+        "shap_value": 0.12451205622342817,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 3470880.0,
+        "shap_value": 0.1067200370334281,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04491981088004891,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04260027152756876,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.041514842748439834,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 120000000.0,
+        "shap_value": 0.041172568104953074,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 28925.0,
+        "shap_value": 0.03202302750764754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.031053123752778192,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.03055481650491587,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 17157,
+    "Actual": "DDOS attack-LOIC-UDP",
+    "Predicted": "DDOS attack-LOIC-UDP",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 1225440.0,
+        "shap_value": 0.18058544745216676,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 4901760.0,
+        "shap_value": 0.12432631304995966,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 4901760.0,
+        "shap_value": 0.10700947001556939,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04492638609072282,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04290873084908149,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.041849199613972654,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 120000000.0,
+        "shap_value": 0.0393776425517987,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 40894.0,
+        "shap_value": 0.031889879440554866,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.03119321264025432,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.030595387306313487,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 157161,
+    "Actual": "DDOS attack-LOIC-UDP",
+    "Predicted": "DDOS attack-LOIC-UDP",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 958304.0,
+        "shap_value": 0.18058544745216676,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 3833216.0,
+        "shap_value": 0.12374217244275579,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 3833216.0,
+        "shap_value": 0.10700228439128075,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04492638609072282,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04290873084908149,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.041849199613972654,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 120000000.0,
+        "shap_value": 0.040228588705651644,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 32013.0,
+        "shap_value": 0.03202302750764754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.031216557997412926,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.030595387306313487,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 110210,
+    "Actual": "DDOS attack-LOIC-UDP",
+    "Predicted": "DDOS attack-LOIC-UDP",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 881584.0,
+        "shap_value": 0.18058544745216676,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 3526336.0,
+        "shap_value": 0.12374217244275579,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 3526336.0,
+        "shap_value": 0.10700228439128075,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04492638609072282,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04290873084908149,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.041849199613972654,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 120000000.0,
+        "shap_value": 0.040228588705651644,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 29400.0,
+        "shap_value": 0.03202302750764754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.031216557997412926,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.030595387306313487,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 107587,
+    "Actual": "DDOS attack-LOIC-UDP",
+    "Predicted": "DDOS attack-LOIC-UDP",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 1090880.0,
+        "shap_value": 0.18058544745216676,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 4363520.0,
+        "shap_value": 0.12374217244275579,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 4363520.0,
+        "shap_value": 0.10700228439128075,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04491981088004891,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04290873084908149,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.041849199613972654,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 120000000.0,
+        "shap_value": 0.040228588705651644,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 36370.0,
+        "shap_value": 0.03202302750764754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.031216557997412926,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.03058004669183104,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 168397,
+    "Actual": "DDOS attack-LOIC-UDP",
+    "Predicted": "DDOS attack-LOIC-UDP",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 1078584.0,
+        "shap_value": 0.18058544745216676,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 4314336.0,
+        "shap_value": 0.12374217244275579,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 4314336.0,
+        "shap_value": 0.10700228439128075,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04492638609072282,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04290873084908149,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.041849199613972654,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 120000000.0,
+        "shap_value": 0.040228588705651644,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 36085.0,
+        "shap_value": 0.03202302750764754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.031216557997412926,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.030595387306313487,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 17555,
+    "Actual": "DDOS attack-LOIC-UDP",
+    "Predicted": "DDOS attack-LOIC-UDP",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 1072120.0,
+        "shap_value": 0.18058544745216676,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 4288480.0,
+        "shap_value": 0.12374217244275579,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 4288480.0,
+        "shap_value": 0.10700228439128075,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04491981088004891,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04290873084908149,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.041849199613972654,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 120000000.0,
+        "shap_value": 0.040228588705651644,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 35747.0,
+        "shap_value": 0.03202302750764754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.031216557997412926,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.03058004669183104,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 44477,
+    "Actual": "DDOS attack-LOIC-UDP",
+    "Predicted": "DDOS attack-LOIC-UDP",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 1061168.0,
+        "shap_value": 0.18058544745216676,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 4244672.0,
+        "shap_value": 0.12374217244275579,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 4244672.0,
+        "shap_value": 0.10700228439128075,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04492638609072282,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04290873084908149,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.041849199613972654,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 120000000.0,
+        "shap_value": 0.040228588705651644,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 35460.0,
+        "shap_value": 0.03202302750764754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.031216557997412926,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.030595387306313487,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 206809,
+    "Actual": "DDOS attack-LOIC-UDP",
+    "Predicted": "DDOS attack-LOIC-UDP",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 982848.0,
+        "shap_value": 0.18058544745216676,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 3931392.0,
+        "shap_value": 0.12374217244275579,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 3931392.0,
+        "shap_value": 0.10700228439128075,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04491981088004891,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04290873084908149,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.041849199613972654,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 120000000.0,
+        "shap_value": 0.040228588705651644,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Byts/s",
+        "value": 32765.0,
+        "shap_value": 0.03202302750764754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.031216557997412926,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.03058004669183104,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 20596,
+    "Actual": "DoS attacks-GoldenEye",
+    "Predicted": "DoS attacks-GoldenEye",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.25702174159752006,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 64.0,
+        "shap_value": 0.12025596468564599,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.09610128264419557,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.06461316655953896,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 221.0,
+        "shap_value": 0.0644742769371884,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.0417739722803285,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.029053847948320704,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 2378541.0,
+        "shap_value": 0.025200376461776346,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.02476530636602306,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.023029080274473094,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 188833,
+    "Actual": "DoS attacks-GoldenEye",
+    "Predicted": "DoS attacks-GoldenEye",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.25676446259868163,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 64.0,
+        "shap_value": 0.1180046422308131,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.0961186973239592,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.0646561972180526,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 226.0,
+        "shap_value": 0.06462761828897441,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04189473249470713,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.029053911739568342,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 1997143.0,
+        "shap_value": 0.026253262708161508,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.024770923451369,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.022997210111453774,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 21238,
+    "Actual": "DoS attacks-GoldenEye",
+    "Predicted": "DoS attacks-GoldenEye",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.25676384865614715,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 64.0,
+        "shap_value": 0.11801754605451376,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.09613223780176194,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.0646570330430097,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 226.0,
+        "shap_value": 0.0646316712226442,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04189473249470713,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.02905346146392759,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 1888607.0,
+        "shap_value": 0.026263412741535597,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.024770923156567513,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.0229971418453295,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 159048,
+    "Actual": "DoS attacks-GoldenEye",
+    "Predicted": "DoS attacks-GoldenEye",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.19909739726308234,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.19518742697931205,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.07951190321212755,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 486.0,
+        "shap_value": 0.042072117310201766,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 243.0,
+        "shap_value": 0.03723081666616457,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.0353709523754349,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 243.0,
+        "shap_value": 0.03497979534236069,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 972.0,
+        "shap_value": 0.033426583899813,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 972.0,
+        "shap_value": 0.03089991468979318,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.024256273770021864,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 107877,
+    "Actual": "DoS attacks-GoldenEye",
+    "Predicted": "DoS attacks-GoldenEye",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.1764705882352941,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.20330897091224312,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.19512497731800887,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.10477137727829505,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.036070019025909714,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 165.5,
+        "shap_value": 0.031064285751121367,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 662.0,
+        "shap_value": 0.030288949582772295,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Max",
+        "value": 404.0,
+        "shap_value": 0.029956793771868554,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 662.0,
+        "shap_value": 0.028829800644228052,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 331.0,
+        "shap_value": 0.027006770998210684,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Max",
+        "value": 662.0,
+        "shap_value": 0.024311312270661165,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 106782,
+    "Actual": "DoS attacks-GoldenEye",
+    "Predicted": "DoS attacks-GoldenEye",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.1764705882352941,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.20685156572194,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.19291505259864977,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.07747693130042517,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 486.0,
+        "shap_value": 0.04414482255502222,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 243.0,
+        "shap_value": 0.037614231137111556,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.03508884456397927,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 243.0,
+        "shap_value": 0.034775580201470396,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 972.0,
+        "shap_value": 0.03325021300280764,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 972.0,
+        "shap_value": 0.030114316045989825,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 136.0,
+        "shap_value": 0.027953268576299373,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 169900,
+    "Actual": "DoS attacks-GoldenEye",
+    "Predicted": "DoS attacks-GoldenEye",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.25676446259868163,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 64.0,
+        "shap_value": 0.1180046422308131,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.0961186973239592,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.0646561972180526,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 226.0,
+        "shap_value": 0.06462761828897441,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04189473249470713,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.029053911739568342,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 1954692.0,
+        "shap_value": 0.026253262708161508,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.024770923451369,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.022997210111453774,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 22482,
+    "Actual": "DoS attacks-GoldenEye",
+    "Predicted": "DoS attacks-GoldenEye",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.19831881153695813,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.18848388666452148,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.08352489285702865,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 165.5,
+        "shap_value": 0.03502541636249,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 331.0,
+        "shap_value": 0.03451864788549876,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.03338626192866095,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 662.0,
+        "shap_value": 0.0320992799337394,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Std",
+        "value": 2887735.19170324,
+        "shap_value": 0.028075542228418616,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 136.0,
+        "shap_value": 0.025375648586361082,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 215.5,
+        "shap_value": 0.025177268699513575,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 48560,
+    "Actual": "DoS attacks-GoldenEye",
+    "Predicted": "DoS attacks-GoldenEye",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.1764705882352941,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.18509000799387695,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.18138081877288853,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.08704988408090711,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 486.0,
+        "shap_value": 0.04338387389071689,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 243.0,
+        "shap_value": 0.037587010661871506,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 243.0,
+        "shap_value": 0.036923112782579454,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 972.0,
+        "shap_value": 0.03218934660934523,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 972.0,
+        "shap_value": 0.032135140389766774,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.03172516091799814,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Tot",
+        "value": 5078985.0,
+        "shap_value": 0.026556258023082886,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 208860,
+    "Actual": "DoS attacks-GoldenEye",
+    "Predicted": "DoS attacks-GoldenEye",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.25676446259868163,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 64.0,
+        "shap_value": 0.1180046422308131,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.0961186973239592,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.0646561972180526,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 226.0,
+        "shap_value": 0.06462761828897441,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04189473249470713,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.029053911739568342,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 1970905.0,
+        "shap_value": 0.026253262708161508,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 0.0,
+        "shap_value": 0.024770923451369,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": -1.0,
+        "shap_value": 0.022997210111453774,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 161767,
+    "Actual": "DoS attacks-SlowHTTPTest",
+    "Predicted": "DoS attacks-SlowHTTPTest",
+    "Correct": true,
+    "Confidence": 0.98,
+    "Jaccard": 0.5384615384615384,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.2015034293562679,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 21.0,
+        "shap_value": 0.14951630440281227,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.11365969751587485,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 37037.03704,
+        "shap_value": 0.07684110384544789,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.053258122015230204,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 27.0,
+        "shap_value": 0.0498262644760337,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 0.0,
+        "shap_value": 0.04051854240277145,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 0.0,
+        "shap_value": 0.04028964020799776,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.03382936414348667,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.023775445786463314,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 49054,
+    "Actual": "DoS attacks-SlowHTTPTest",
+    "Predicted": "DoS attacks-SlowHTTPTest",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.5384615384615384,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.20785190579365412,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 21.0,
+        "shap_value": 0.14540977440809558,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.1087918622488511,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 26315.78947,
+        "shap_value": 0.08248492354484377,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 38.0,
+        "shap_value": 0.055587757079559943,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.05450099279037217,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 0.0,
+        "shap_value": 0.04217843795401337,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 0.0,
+        "shap_value": 0.0407425661751032,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.03546101035358909,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.024098132489882212,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 21965,
+    "Actual": "DoS attacks-SlowHTTPTest",
+    "Predicted": "DoS attacks-SlowHTTPTest",
+    "Correct": true,
+    "Confidence": 0.945,
+    "Jaccard": 0.5384615384615384,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.19366012900482169,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 21.0,
+        "shap_value": 0.1487911387809,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.11817481299448546,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 55555.55556,
+        "shap_value": 0.06868373527275684,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.050900727806360804,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 18.0,
+        "shap_value": 0.040451092294781346,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 0.0,
+        "shap_value": 0.039049161438202105,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 0.0,
+        "shap_value": 0.03723090380505033,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.0341875819679033,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.02347294448693827,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 56091,
+    "Actual": "DoS attacks-SlowHTTPTest",
+    "Predicted": "DoS attacks-SlowHTTPTest",
+    "Correct": true,
+    "Confidence": 0.995,
+    "Jaccard": 0.5384615384615384,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.20664764510040612,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 21.0,
+        "shap_value": 0.1454728247580291,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.10826473297453863,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 19230.76923,
+        "shap_value": 0.08282367007051321,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 52.0,
+        "shap_value": 0.05394009991330007,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.053554646513295376,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 0.0,
+        "shap_value": 0.042103853995598337,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 0.0,
+        "shap_value": 0.042045574819793895,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.03559823049555051,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.024071709481464677,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 82963,
+    "Actual": "DoS attacks-SlowHTTPTest",
+    "Predicted": "DoS attacks-SlowHTTPTest",
+    "Correct": true,
+    "Confidence": 0.96,
+    "Jaccard": 0.5384615384615384,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.19690272930156696,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 21.0,
+        "shap_value": 0.1426147911251324,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.11351086747207446,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 142857.1429,
+        "shap_value": 0.07215810055796679,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.056684974021339145,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 7.0,
+        "shap_value": 0.04738815348397109,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 0.0,
+        "shap_value": 0.041216325386341846,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 0.0,
+        "shap_value": 0.03775839925464643,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.03360488272209196,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.023270226138385166,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 112196,
+    "Actual": "DoS attacks-SlowHTTPTest",
+    "Predicted": "DoS attacks-SlowHTTPTest",
+    "Correct": true,
+    "Confidence": 0.955,
+    "Jaccard": 0.6666666666666666,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.19566894207642413,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 21.0,
+        "shap_value": 0.15093076734151736,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.11843813903975754,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 58823.52941,
+        "shap_value": 0.06913341470617167,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.05114125413890663,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 17.0,
+        "shap_value": 0.04255265871965285,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 0.0,
+        "shap_value": 0.03901303000948082,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 0.0,
+        "shap_value": 0.038339335424493755,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.0341875819679033,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.02347294448693827,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 171644,
+    "Actual": "DoS attacks-SlowHTTPTest",
+    "Predicted": "DoS attacks-SlowHTTPTest",
+    "Correct": true,
+    "Confidence": 0.985,
+    "Jaccard": 0.5384615384615384,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.20146362954910518,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 21.0,
+        "shap_value": 0.15066375527934694,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.114249981604674,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 41666.66667,
+        "shap_value": 0.07764688558563254,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.053487828481540024,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 24.0,
+        "shap_value": 0.05002835942680404,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 0.0,
+        "shap_value": 0.040917945847341444,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 0.0,
+        "shap_value": 0.04040277482703618,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.033781917289879296,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.022957494519789765,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 32901,
+    "Actual": "DoS attacks-SlowHTTPTest",
+    "Predicted": "DoS attacks-SlowHTTPTest",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.2083989016428454,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 21.0,
+        "shap_value": 0.1466625061187397,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.10869854845218378,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 32258.06452,
+        "shap_value": 0.08208210192624807,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 31.0,
+        "shap_value": 0.05517145222065011,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.05390975687530237,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 0.0,
+        "shap_value": 0.042174219644079775,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 0.0,
+        "shap_value": 0.04073073749697815,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.035390859488228565,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.024098808787768107,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 178291,
+    "Actual": "DoS attacks-SlowHTTPTest",
+    "Predicted": "DoS attacks-SlowHTTPTest",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.5384615384615384,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.2083834340757414,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 21.0,
+        "shap_value": 0.14704151098471374,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.10864107148726798,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 31250.0,
+        "shap_value": 0.08205638439151675,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 32.0,
+        "shap_value": 0.05514685367716914,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.05389336546709452,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 0.0,
+        "shap_value": 0.04215237988014871,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 0.0,
+        "shap_value": 0.04073073749697815,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.035390859488228565,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.024098808787768107,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 123229,
+    "Actual": "DoS attacks-SlowHTTPTest",
+    "Predicted": "DoS attacks-SlowHTTPTest",
+    "Correct": true,
+    "Confidence": 0.98,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.1998340487000452,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 21.0,
+        "shap_value": 0.15186568757092733,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.1186564169862588,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 76923.07692,
+        "shap_value": 0.0752450539115089,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.053390439797447196,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 13.0,
+        "shap_value": 0.0501834713879739,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 0.0,
+        "shap_value": 0.04002552565083108,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 0.0,
+        "shap_value": 0.03808993203086002,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.03411756883209166,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.022475582227206328,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 19758,
+    "Actual": "DoS attacks-Slowloris",
+    "Predicted": "DoS attacks-Slowloris",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.12209766601335598,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Max",
+        "value": 76040036.0,
+        "shap_value": 0.07801244444901644,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.07102591035001801,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.06985605450573093,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.06310398052462307,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.05575650391135035,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Std",
+        "value": 31849814.7651882,
+        "shap_value": 0.050820581827942767,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 456.0,
+        "shap_value": 0.04095219937958527,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0280275246,
+        "shap_value": 0.03908098607372997,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 180.7142857143,
+        "shap_value": 0.029931080314107867,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 183892,
+    "Actual": "DoS attacks-Slowloris",
+    "Predicted": "DoS attacks-Slowloris",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 40.0,
+        "shap_value": 0.22145123726042035,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.1399416420878214,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 120.0,
+        "shap_value": 0.11074050149162282,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.09117330800448166,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 2015914.0,
+        "shap_value": 0.04519091705549012,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 3043660.0,
+        "shap_value": 0.04454436290163366,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.04404193576840242,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.04398552765533218,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 3043660.0,
+        "shap_value": 0.04145041142509363,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.026819588367854814,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 20241,
+    "Actual": "DoS attacks-Slowloris",
+    "Predicted": "DoS attacks-Slowloris",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.15389789249733898,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.08525048513605199,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.07402296685624482,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.06541072632223367,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 496.0,
+        "shap_value": 0.05682298312614204,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.05393879723030608,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Max",
+        "value": 230.0,
+        "shap_value": 0.04447721659219659,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.033275583,
+        "shap_value": 0.03897056997474357,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 153.8666666667,
+        "shap_value": 0.03421497719164913,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Max",
+        "value": 230.0,
+        "shap_value": 0.03232018069354033,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 155332,
+    "Actual": "DoS attacks-Slowloris",
+    "Predicted": "DoS attacks-Slowloris",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.12230095031406144,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Max",
+        "value": 75528620.0,
+        "shap_value": 0.07797934155500118,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.07114932126315437,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.06987717294769051,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.0631781138626918,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.05578377479494166,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Std",
+        "value": 31487460.7235963,
+        "shap_value": 0.05010214634988049,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 496.0,
+        "shap_value": 0.04128297872242697,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0278939149,
+        "shap_value": 0.03808880121807993,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 168.6666666667,
+        "shap_value": 0.030103684590722456,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 105747,
+    "Actual": "DoS attacks-Slowloris",
+    "Predicted": "DoS attacks-Slowloris",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.12230095031406144,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Max",
+        "value": 76263599.0,
+        "shap_value": 0.07797934155500118,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.07114932126315437,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.06987717294769051,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.0631781138626918,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.05578377479494166,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Std",
+        "value": 32006513.8705398,
+        "shap_value": 0.05010214634988049,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 496.0,
+        "shap_value": 0.04128297872242697,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0277044927,
+        "shap_value": 0.03808880121807993,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 168.6666666667,
+        "shap_value": 0.030103684590722456,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 104342,
+    "Actual": "DoS attacks-Slowloris",
+    "Predicted": "DoS attacks-Slowloris",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.12230428202066175,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Max",
+        "value": 76450296.0,
+        "shap_value": 0.07797238997807988,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.07114932126315437,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.06987646554329352,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.06318010765106508,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.05577710994365026,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Std",
+        "value": 32139776.628735803,
+        "shap_value": 0.05010214634988049,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 496.0,
+        "shap_value": 0.04128297872242697,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0276568606999999,
+        "shap_value": 0.03808880121807993,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 168.6666666667,
+        "shap_value": 0.030103684590722456,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 166702,
+    "Actual": "DoS attacks-Slowloris",
+    "Predicted": "DoS attacks-Slowloris",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.16580878499776733,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Max",
+        "value": 99999423.0,
+        "shap_value": 0.10297561298823302,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.06828053364836756,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.020000115,
+        "shap_value": 0.05159226220036867,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.051332538236103606,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 99999423.0,
+        "shap_value": 0.04969411400756136,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 64.0,
+        "shap_value": 0.048692696420416605,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 211.0,
+        "shap_value": 0.03883963844066876,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.03863356178139463,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.03320348003568359,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 22440,
+    "Actual": "DoS attacks-Slowloris",
+    "Predicted": "DoS attacks-Slowloris",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.16580570485857446,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Max",
+        "value": 103075709.0,
+        "shap_value": 0.10298074359794615,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.06828038434147275,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0194032132,
+        "shap_value": 0.051592999014085185,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.05133190433725553,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 103075709.0,
+        "shap_value": 0.049694315010881764,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 64.0,
+        "shap_value": 0.048692353206464076,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 211.0,
+        "shap_value": 0.038839613377984174,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.03863356178139463,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.03320348003568359,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 52192,
+    "Actual": "DoS attacks-Slowloris",
+    "Predicted": "DoS attacks-Slowloris",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.15651470043777527,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Max",
+        "value": 105002997.0,
+        "shap_value": 0.09355854968124837,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 26883.0,
+        "shap_value": 0.07015380460221893,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.06363104126523307,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.06344008246891367,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Std",
+        "value": 60040599.4612376,
+        "shap_value": 0.054572514760551825,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.044224909100165806,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 105002997.0,
+        "shap_value": 0.03771817497896582,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 168.0,
+        "shap_value": 0.03611979794607947,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Tot",
+        "value": 107052529.0,
+        "shap_value": 0.03480860179447525,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 205458,
+    "Actual": "DoS attacks-Slowloris",
+    "Predicted": "DoS attacks-Slowloris",
+    "Correct": true,
+    "Confidence": 1.0,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 32.0,
+        "shap_value": 0.16580878499776733,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Max",
+        "value": 99999825.0,
+        "shap_value": 0.10297561298823302,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.06828053364836756,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0200000346,
+        "shap_value": 0.05159226220036867,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.051332538236103606,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 99999826.0,
+        "shap_value": 0.04969411400756136,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 64.0,
+        "shap_value": 0.048692696420416605,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 211.0,
+        "shap_value": 0.03883963844066876,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.03863356178139463,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.03320348003568359,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 36415,
+    "Actual": "SQL Injection",
+    "Predicted": "SQL Injection",
+    "Correct": true,
+    "Confidence": 0.99,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Pkt Len Max",
+        "value": 1890.0,
+        "shap_value": 0.1037928946876302,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 945.0,
+        "shap_value": 0.07610494791755286,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 1890.0,
+        "shap_value": 0.07217137700041544,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.06908955366463408,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.05086262312082488,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.04999598676695503,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 92.0,
+        "shap_value": 0.04303523953224222,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.7981635852,
+        "shap_value": 0.03625646935775536,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 472.5,
+        "shap_value": 0.031220265741470764,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 146.5,
+        "shap_value": 0.031193663618045923,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 84999,
+    "Actual": "SQL Injection",
+    "Predicted": "SQL Injection",
+    "Correct": true,
+    "Confidence": 0.61,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 1806.0,
+        "shap_value": 0.07531291907700284,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Max",
+        "value": 1806.0,
+        "shap_value": 0.06988582508120046,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 1042.6945861565,
+        "shap_value": 0.06619114822039195,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.05082030386689695,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.038877022986454984,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.03212313200512369,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.03199957044332153,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.597880037,
+        "shap_value": 0.02888302538237775,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 112.0,
+        "shap_value": 0.027417768102046308,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 602.0,
+        "shap_value": 0.01738986728459759,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 15210,
+    "Actual": "SQL Injection",
+    "Predicted": "Brute Force -Web",
+    "Correct": false,
+    "Confidence": 0.48383333333333334,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 2053.0,
+        "shap_value": 0.09522633207406157,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.08642952318135771,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 12.0,
+        "shap_value": 0.04905690773272247,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 12.0,
+        "shap_value": 0.04069574051902782,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 12.0,
+        "shap_value": 0.038330531919555225,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.026218320089292865,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.017101326170397876,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.016812257170181564,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.012125637823931015,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.009208988745273225,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 114134,
+    "Actual": "SQL Injection",
+    "Predicted": "SQL Injection",
+    "Correct": true,
+    "Confidence": 0.96,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 1081.3770541922,
+        "shap_value": 0.0972356620385281,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 1873.0,
+        "shap_value": 0.07136185753718974,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Max",
+        "value": 1873.0,
+        "shap_value": 0.06775382764360084,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.06506022808420517,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.06488560674427989,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 112.0,
+        "shap_value": 0.04903709726975721,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.046790291313654524,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.5992915176,
+        "shap_value": 0.04113581417862805,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 220.0,
+        "shap_value": 0.03447100030946168,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 269.222584491,
+        "shap_value": 0.03227395484129991,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 63536,
+    "Actual": "SQL Injection",
+    "Predicted": "SQL Injection",
+    "Correct": true,
+    "Confidence": 0.51,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 92.0,
+        "shap_value": 0.04521656518156778,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.041609325380686214,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.032027574142146076,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.031464466768956,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 5010270.0,
+        "shap_value": 0.028585652106774936,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 660.0,
+        "shap_value": 0.023533559527976457,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Tot",
+        "value": 5010245.0,
+        "shap_value": 0.019768439036327523,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 221.0,
+        "shap_value": 0.018732301703742897,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 395.0,
+        "shap_value": 0.017593288456818384,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Std",
+        "value": 2888284.30751153,
+        "shap_value": 0.017398433377180517,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 84816,
+    "Actual": "SQL Injection",
+    "Predicted": "SQL Injection",
+    "Correct": true,
+    "Confidence": 0.535,
+    "Jaccard": 0.3333333333333333,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Fwd Header Len",
+        "value": 92.0,
+        "shap_value": 0.05015516908724181,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.03875152477538987,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 5010641.0,
+        "shap_value": 0.03301824795857871,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.029060380463528324,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.7983010556999999,
+        "shap_value": 0.026781663909881445,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Tot",
+        "value": 5010616.0,
+        "shap_value": 0.024257953513412422,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 219.0,
+        "shap_value": 0.023820872841528933,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.021551576150385943,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 120.75,
+        "shap_value": 0.019371988265659723,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 483.0,
+        "shap_value": 0.018356209305023925,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 149010,
+    "Actual": "SQL Injection",
+    "Predicted": "Benign",
+    "Correct": false,
+    "Confidence": 0.775,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": -0.0439043025891344,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": -0.03250725608688547,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 20.0,
+        "shap_value": 0.021158419614709705,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 8192.0,
+        "shap_value": 0.016289727540753595,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 112.0,
+        "shap_value": -0.01572030018284276,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 259.0,
+        "shap_value": -0.015616156690627405,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "TotLen Bwd Pkts",
+        "value": 1411.0,
+        "shap_value": 0.01481609916667867,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "TotLen Fwd Pkts",
+        "value": 1295.0,
+        "shap_value": 0.012241220652646018,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd IAT Tot",
+        "value": 5061020.0,
+        "shap_value": -0.012087245405455187,
+        "direction": "away from prediction"
+      },
+      {
+        "feature": "Subflow Fwd Byts",
+        "value": 1295.0,
+        "shap_value": 0.01161963166561901,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 214033,
+    "Actual": "SQL Injection",
+    "Predicted": "Brute Force -Web",
+    "Correct": false,
+    "Confidence": 0.6024999999999998,
+    "Jaccard": 0.4285714285714285,
+    "Agreement": "high agreement",
+    "Top_Features": [
+      {
+        "feature": "Init Fwd Win Byts",
+        "value": 2053.0,
+        "shap_value": 0.11703256342003264,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.09908690934241417,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 24.0,
+        "shap_value": 0.06699485293276641,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Max",
+        "value": 24.0,
+        "shap_value": 0.06144171173726131,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd IAT Tot",
+        "value": 24.0,
+        "shap_value": 0.061238954933839115,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkts/s",
+        "value": 0.0,
+        "shap_value": 0.034366078534170896,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 40.0,
+        "shap_value": 0.018140190246406243,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 0.0,
+        "shap_value": 0.015818784941446697,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Min",
+        "value": 20.0,
+        "shap_value": 0.011265628418104008,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Mean",
+        "value": 0.0,
+        "shap_value": 0.011024436992333084,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 46308,
+    "Actual": "SQL Injection",
+    "Predicted": "SQL Injection",
+    "Correct": true,
+    "Confidence": 0.53,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 1853.0,
+        "shap_value": 0.08376253451031009,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 881.0283290942999,
+        "shap_value": 0.06916630378869852,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Max",
+        "value": 1853.0,
+        "shap_value": 0.06281307636413164,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.059764436662136954,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.035156120861530527,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Std",
+        "value": 261.0532695137,
+        "shap_value": 0.020428093225409238,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Seg Size Avg",
+        "value": 152.8571428571,
+        "shap_value": 0.019339652760080515,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Init Bwd Win Byts",
+        "value": 227.0,
+        "shap_value": 0.018571532726702592,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.017865784872089573,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Pkt Len Max",
+        "value": 535.0,
+        "shap_value": 0.017400975225718724,
+        "direction": "toward prediction"
+      }
+    ]
+  },
+  {
+    "Sample_Index": 155157,
+    "Actual": "SQL Injection",
+    "Predicted": "SQL Injection",
+    "Correct": true,
+    "Confidence": 0.95,
+    "Jaccard": 0.25,
+    "Agreement": "low agreement",
+    "Top_Features": [
+      {
+        "feature": "Pkt Len Max",
+        "value": 4012.0,
+        "shap_value": 0.11286135264726786,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Max",
+        "value": 4012.0,
+        "shap_value": 0.08744981452862187,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Pkt Len Std",
+        "value": 2006.0,
+        "shap_value": 0.0767270241401323,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "ECE Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.07256069120950265,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "RST Flag Cnt",
+        "value": 1.0,
+        "shap_value": 0.050053392762991734,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Pkt Len Var",
+        "value": 1593323.12222222,
+        "shap_value": 0.04410276407288801,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Dst Port",
+        "value": 80.0,
+        "shap_value": 0.03828376942758203,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Fwd Header Len",
+        "value": 112.0,
+        "shap_value": 0.03686554602328402,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Bwd Seg Size Avg",
+        "value": 1003.0,
+        "shap_value": 0.031140165777474,
+        "direction": "toward prediction"
+      },
+      {
+        "feature": "Flow Duration",
+        "value": 5013890.0,
+        "shap_value": 0.028256457574866476,
+        "direction": "toward prediction"
+      }
+    ]
+  }
+]
