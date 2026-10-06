@@ -252,7 +252,7 @@ In particular, the repository should not contain:
 Clone the repository and create a Python environment.
 
 ```bash
-git clone <https://github.com/JANANI2025/SENTINEL-XAI>
+git clone <https://github.com/janani2024a-png/SENTINAL-XAI>
 cd sentinel-xai
 ```
 
@@ -388,7 +388,7 @@ If you use this software, please cite the repository using the citation informat
   author = {Janani G and D Deepa and Aqsha Fathima I and Gayathri M and Rakshitha N and Syed Fazila Musquan},
   year   = {2026},
   version = {1.0.0},
-  url    = {<https://github.com/JANANI2025/SENTINEL-XAI>}
+  url    = {<https://github.com/janani2024a-png/SENTINAL-XAI>}
 }
 ```
 
